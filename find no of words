@@ -1,0 +1,3 @@
+sentence = input('enter the sentence')
+words = sentence.count(' ')
+print(words+1)
