@@ -1,0 +1,13 @@
+msg = input('Enter something : ')
+f1 = open("msg","w")
+f1.write(msg)
+print('-------msg is written on file--------')
+f1.close()
+
+
+f2 = open("msg","r")
+content = f2.read()
+print('your msg is : ',content)
+
+
+f2.close()
