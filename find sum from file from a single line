@@ -12,3 +12,4 @@ for i in f2 :
     sum = sum + int(j)
 print('you sum is ',sum)
 f2.close()
+
