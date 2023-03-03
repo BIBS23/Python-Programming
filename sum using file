@@ -1,0 +1,12 @@
+f1 = open("sum","w")
+sum = 0
+print('enter numbers\n')
+for i in range (5):
+  num =  input()
+  f1.write(num+'\n')
+f1.close()
+f2 = open("sum","r")
+for i in f2 :
+  sum = sum +  int(i)
+print('you sum is ',sum)
+f2.close()
